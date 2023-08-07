@@ -85,6 +85,55 @@ function abTest(a,b) {
 }
 console.log(abTest(2,2));
 console.log(abTest(-2,2));
-//-------------------------------
+//---------Object----------------------
+let testObj = {
+    "car1" : "Mercedes",
+    "car2" : "Audi",
+    "car3" : "Bmw"
+};
+
+let car1Value = testObj.car1;
+let car2Value = testObj.car2;
+console.log(car1Value);
+console.log(car2Value);
+//------------------------
+let test2 = {
+    "student" : "hamburger",
+    "ladies" : "vegetables",
+    "kid" : "biscuits"
+};
+let studentValue = test2["student"];
+let ladies = test2["ladies"];
+let kids = test2["kid"];
+console.log(studentValue);
+console.log(ladies);
+console.log(kids);
+
+//------------------------------------
+
+let test3 = {
+    10: "Maradona",
+    7: "C.ronaldo",
+    9: "Ronaldo"
+
+};
+
+let playerNumber = 10;
+let player = test3[playerNumber];
+
+console.log(player);
+
+/*------------Updating Object Property----------------------*/
+
+var test4 = {
+    "student" : "hamburger",
+    "ladies" : "vegetables",
+    "kid" : "biscuits"
+};
+var kid = test4["kid"]
+test4["kid"] = "jellies";
+kid = test4["kid"]
+console.log(kid);
+
 
 
